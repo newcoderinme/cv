@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/*
+Dynamically sized font
+16 px = 100% = 1em = 1rem (rem ignores parent's settings)
+Thus 90 px = 562.5% = 5.625em
+
+*/
+
+h1 {
+    color: #66BFBF;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    /* margin: 0, auto, 0, auto; */
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+.middle-container{
+
+}
+
+.bottom-container{
+
+}
+
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px
+}
